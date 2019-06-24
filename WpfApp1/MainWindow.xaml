@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="WPF Checker - Cloud Duo" Height="189.955" Width="302.257" WindowStyle="ToolWindow" ResizeMode="NoResize" Icon="favicon.ico">
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo/>
+    </Window.TaskbarItemInfo>
+    <Grid>
+        <Label x:Name="lblRenderingTier" Content="" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.032,-6.446" Loaded="lblRederningTier_Loaded"/>
+        <Image HorizontalAlignment="Left" Height="128" Margin="133,23,0,0" VerticalAlignment="Top" Width="165" Source="cloudduo logo - tekst - small.png"/>
+
+    </Grid>
+</Window>
